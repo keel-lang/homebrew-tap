@@ -12,14 +12,14 @@ class Keel < Formula
   on_macos do
     on_arm do
       url "https://github.com/keel-lang/keel/releases/download/v0.1.32/keel-aarch64-apple-darwin.tar.gz"
-      sha256 "118b6b901f9b1eca2ac8bb484880b780bb9183efbdc3c762de244d085f640558"
+      sha256 "081dd66da9daa98c7ae7588d77e29a5e9b3a046ae9aa568eb41b24a5968194dc"
     end
     # Intel Macs: build from source — no prebuilt binary.
   end
 
   on_linux do
     url "https://github.com/keel-lang/keel/releases/download/v0.1.32/keel-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "a33a8dc2a469d000a4e84bc70ad90ddd67cf3d2ebc4a4c46732dfada1def303a"
+    sha256 "2c446702dc06a58403e6cba30fb44328d3668af521541611b8bcd18d0cb7afb4"
   end
 
   def install
